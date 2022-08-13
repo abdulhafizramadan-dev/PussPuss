@@ -1,0 +1,77 @@
+package com.ahr.puspus.data
+
+import com.ahr.puspus.R
+
+object CatData {
+    private val catNames = listOf(
+        "Kucing Kampung",
+        "Kucing Persia",
+        "Kucing Anggora",
+        "Kucing Siam",
+        "Kucing Ragdoll",
+        "Kucing Maine Coon",
+        "Kucing Sphynx",
+        "Kucing Russian Blue",
+        "Kucing Bengal",
+        "Kucing Munchkin",
+        "Kucing British Shorthair",
+        "Kucing American Shorthair",
+        "Kucing Scottish Fold",
+        "Kucing Balinese",
+        "Kucing Japanese Bobtail",
+        "Kucing Singapura"
+    )
+
+    private val catDescriptions = listOf(
+        "Kucing domestik mungkin menjadi jenis kucing yang paling banyak ditemui. Jenis kucing domestik lebih populer dikenal dengan nama kucing kampung. Kucing kampung juga jenis kucing yang mudah untuk dipelihara. Kucing kampung juga tidak memerlukan  perawatan khusus layaknya kucing ras lain yang mempunyai karakteristik khas. Jadi kamu tidak repot-repot mempersiapkan banyak hal untuk jenis kucing ini.",
+        "Kucing persia menjadi jenis kucing ras asing yang pertama diimpor ke Thailand. Jenis kucing ini juga menjadi salah satu ras kucing yang paling populer dijadikan hewan peliharan baik lokal maupun internasional. Kucing persia memiliki kepala dan dahi yang bulat lebar dan telinga kecil yang ujungnya membulat. Bentuk ekornya pun pendek dan kaki yang pendek.\n\nKucing persia memiliki karakter yang ramah dan mudah bergaul, jadi cocok jadi teman bermain. Jenis kucing ini juga memiliki kebiasaan yang lemah lembut, ramah, santai periang, dan cerdas. Parasnya yang menggemaskan dan unik membuat Kucing Persia jadi primadona para pecinta kucing.\n\nAsal usul ras Kucing Persia adalah Persia yang saat ini menjadi Turki dan Iran. Ada dokumen kuno yang menyatakan bahwa Kucing Persia diperkenalkan pertama kali di Eropa sebagai Kucing Anggora Turki. Mereka kemudian melakukan kawin silang dengan ras kucing lain yang menghasilkan jenis Kucing yang didaftarkan sebagai Kucing Persia di Inggris.\n\nCara merawat jenis kucing ini membutuhkan perlakuan khusus karena bulunya yang panjang dan lebat. Jika memelihara jenis kucing ini, kamu harus rajin menyisir dan menyikat rambut mereka setiap hari agar tidak kusut. Kucing berwajah pendek seperti Kucing Persia ini juga sering muncul noda karena air mata. Jadi sang pemilik juga harus rajin membersihkan mata mereka agar mencegah masalah kulit yang serius pada si kucing.\n\nUntuk membeli kucing jenis ini  kamu butuh merogoh kocek lebih banyak karena Kucing Persia biasanya dijual dengan harga yang tinggi sampai 13 Juta. Namun untuk jenis campuran, Kucing Anggora bisa didapat dengan harga mulai 500 Ribu saja.",
+        "Banyak orang yang masih kesulitan membedakan antara Kucing Anggora dan Kucing Persia, padahal kedua jenis kucing ini berbeda. Bulu yang lembut, panjang, dan lebat mungkin membuat Anggora sulit dibedakan dari Kucing Persia. Jika Kucing persia berbadan gemuk, lain halnya dengan Kucing Anggora yang cenderung memiliki ukuran bentuk tubuh yang lebih kurus.\n\nKucing Anggora memiliki ciri khas pada bentuk kepalanya yang segitiga berbulu lebat menyerupai singa dengan hidung yang lebih mancung dari kucing jenis lainnya. Leher dengan bulu yang panjang juga jadi ciri khas yang tidak bisa dialihkan dari Kucing Anggora. Itu lah yang membuat kucing jenis ini sangat menggemaskan.\n\nCara merawat kucing jenis ini tidak jauh berbeda dengan merawat Kucing Persia. Karena bulunya yang lebat dan panjang, sang pemilik harus rajin memperhatikan bulu dan menyisirnya. Kucing Anggora biasanya dijual dengan harga yang cukup mahal sekitar 1 juta sampai 2 juta.",
+        "Kucing Siam merupakan jenis kucing dengan ras oriental yang populer di Thailand dan paling terkenal dari semua jenis kucing pedigree. Di negara asalnya, Kucing Siam dikenal sebagai “Royal Cat of Siam”. Kucing Siam ditemukan di Ancient Siamese City of Ayhuda, sebuah kota di Buma sekitar tahun 1350-an. Muncul pertama kali di Australia tahun 1890, Kucing Siam kini menjadi salah satu jenis kucing yang paling populer sebagai hewan peliharaan.\n\nKucing Siam memiliki 3 jenis, yakni Kucing Siam klasik, Kucing Siam Tradisional, dan Kucing Siam Modern. Kucing Jenis ini memiliki karakteristik bentuk tubuh yang ramping, ekor panjang, mata biru, dan bulunya pendek bertitik gelap pada muka, telinga, ekor, dan kakinya.\n\nJenis Kucing Siam akan menjadi hewan peliharaan yang penuh kasih sayang meskipun mereka mungkin tidak terlalu manja seperti jenis kucing lainnya. Kamu mungkin akan jarang mendapati Kucing Siam ini duduk dipangkuan sang pemiliknya.  Kucing Siam akan menjadi hewan peliharaan yang mewah. Harga Kucing Siam biasanya dibanderol mulai Ratusan Ribu sampai Jutaan Rupiah tergantung ukuran dan usia si kucing.",
+        "Kucing Ragdoll merupakan jenis kucing asal Amerika Serikat dengan nama asli Ragdoll yang diambil dari sifatnya yang jinak layaknya sebuah boneka. Kamu mungkin akan sering mendapati Kucing Ragdoll ini bermanja-manja dan bergantungan di tangan sang pemilik layaknya rag doll.\n\nKarakteristik tubuhnya hampir sama dengan jenis Kucing Persia dan Siam dari matanya yang biru sampai wajah dan pipinya yang bulat. Dadanya lebar berotot dengan tulang kaki yang kuat dan tengkoraknya juga besar.  Kucing jenis ini memiliki sifat yang tenang, santai, dan sangat penyayang. Kucing Ragdoll menyukai ketenangan namun tetap senang jika berada di sekitar banyak orang.\n\nPemilik kucing jenis ini harus rajin menyikat bulunya dan menyiapkan tempat tinggal kucing yang banyak untuknya bermain. Kucing Ragdoll adalah jenis kucing yang suka bermain berkeliaran kesana kemari dan berpetualang. Kucing ini biasanya dijual dengan harga mulai 3 Juta sampai 10 Juta.",
+        "Kucing Maine Coon merupakan jenis kucing paling besar dari semua jenis Kucing Domestik. Rata-rata berat Kucing Maine Coon mencapai 15 kilogram. Kucing Maine Coon termasuk jenis kucing yang kuat, perkasa, dan bisa bertahan hidup dengan iklim yang ekstrim. Kucing jenis ini memiliki karakteristik bulu yang tebal dan halus, mata besar, dan cakar yang besar.\n\nAsal ras kucing Maine Coon adalah Amerika Utara, tepatnya negara bagian Maine. Maine Coon merupakan hasil persilangan antara kucing domestik bulu pendek dengan kucing luar negeri berbulu panjang. Ada pula yang menyatakan bahwa Kucing Maine Coon merupakan hasil persilangan antara kucing dan rakun.\n\nSifatnya yang lembut dan penyayang akan membuat Kucing Maine Coon sangat cocok jadi hewan peliharaan. Kucing jenis ini juga setia pada pemiliknya. Untuk Kucing Maine Coon usia 3-4 bulan bisa dihargai sampai 8 juta.\n\nKucing ras hingga saat ini memang banyak digemari oleh berbagai kalangan. Namun, apakah kamu sudah memiliki pengetahuan yang cukup untuk memeliharanya? Pelajari berbagai informasi menarik mengenai kucing ras pada Buku Pintar Kesehatan Kucing Ras.",
+        "Kucing Sphynx adalah salah satu jenis kucing yang unik karena hampir tidak memiliki bulu sama sekali. Di Australia, Kucing Sphynx menjadi satu-satunya jenis kucing yang dikenal tidak memiliki bulu. Namun sebenarnya Kucing Sphynx masih memiliki bulu yang sangat pendek dan hampir menyerupai kulit. Uniknya lagi Kucing Sphynx juga menjadi satu-satunya jenis kucing yang memiliki kelenjar keringat. Karena keunikannya ini lah Kucing Sphynx banyak diburu para pecinta kucing.\n\nKucing jenis ini memiliki karakteristik tubuh yang ramping dengan telinga yang berbentuk segitiga, kulit kening yang berkerut, dan dada yang kuat. Bentuk ekornya kecil dan panjang dan beberapa kucing jenis ini memiliki kumis. Sphynx memiliki sifat yang penuh kasih sayang dan bisa bergaul dengan hewan-hewan peliharaan lainnya.\n\nHewan peliharaan yang satu ini harus dimandikan secara rutin untuk menjaga bulunya agar tetap sehat. Hal ini karena kulit Kucing Sphynx harus tetap sejuk dengan kelenjar keringat yang dimilikinya. Kamu bisa membeli kucing jenis ini dengan kisaran harga mulai dari 14 juta sampai puluhan juta.",
+        "Kucing Russian Blue berasal dari daerah pelabuhan Arkhangelsk, Rusia. Kucing jenis ini memiliki bulu yang anggun dan mata hijau yang berkilau. Lapisan bulu Kucing Russian Blue sangat berbeda dengan jenis kucing lainnya, yakni berwarna perak biru, berukuran pendek, tebal, dan sangat halus.\n\nMemiliki karakteristik yang anggun, Kucing Russian Blue dapat jadi hewan peliharaan yang mewah dan megah. Hal ini juga berpengaruh pada harga jenis kucing ini yang fantastis mencapai 39 jutaan. Sedangkan harga dibandrol sekitar 900 ribuan untuk jenis Kucing Russian Blue campuran.",
+        "Jenis Kucing Bengal sebenarnya adalah campuran dari berbagai ras kucing seperti Abyssinian, American Shorthair, Burmese, Egyptian Mau dan Asian Leopard. Kucing Bengal bahkan masih satu keluarga dengan macan tutul. Kamu tidak perlu khawatir karena kucing jenis ini memiliki sifat yang jinak dan sangat ramah sebagai hewan peliharaan.\n\nKucing Bengal merupakan jenis kucing yang unik karena menjadi satu-satunya jenis kucing yang berbintik seperti keturunannya langsung. Sifatnya yang gaduh, aktif, dan senang bermain akan membuat pemiliknya kewalahan. Jadi jika kamu tertarik memelihara kucing jenis ini harus siap-siap menangani tingkah lakunya. Kucing jenis ini bahkan sangat pintar dan mudah diajari atas perintah. Harga Kucing Bengal terbilang fantastis karena dibanderol  dari 10 Jutaan. Untuk jenis campurannya di harga 3 Jutaan.",
+        "Kucing Munchkin memiliki ciri khas bentuk tubuh yang unik, yakni tubuh mungil meskipun usianya sudah dewasa. Bentuk kaki pun pendek dan mungil. Karakter sifat kucing cukup pendiam dan manja. Kucing Munchkin sangat cocok dijadikan hewan peliharaan yang menggemaskan. Kucing Munchkin asli bisa dihargai sampai 6 Jutaan, sedangkan untuk yang campuran harganya mulai dari 900 ribuan.",
+        "Kucing British Shorthair adalah jenis kucing yang ideal sebagai hewan peliharaan karena bentuk tubuhnya yang sempurna. Kucing jenis ini memiliki bulu yang khas dan halus, mata yang besar dan kepala yang  bulat. Bahkan Kucing British Shorthair ini juga mudah untuk dirawat.\n\nBritish Shorthair dikenal dengan ras kucing Inggris tertua dan kemampuan berburunya. Mereka sangat menyukai kedamaian dan keheningan, itulah sebabnya mereka sering disebut kucing yang mandiri. Kucing British Shorthair yang asli bisa mencapai harga 8 Jutaan, namun untuk yang campuran bisa kamu beli di harga mulai 800 ribuan.\n\nTampilan dan perilaku yang menggemaskan juga datang dengan tanggung jawab yang besar untuk merawat kucing. Temukan panduan ideal bagi kamu pemilik kucing peliharaan pada buku Solusi Permasalahan Kucing dibawah ini.",
+        "Kucing jenis American Shorthair jadi salah satu kucing yang paling disukai sebagai hewan peliharaan karena warna perak bulunya yang khas dan coraknya yang seperti marmer. Sekarang jenis kucing American Shorthair memiliki 60 jenis warna bulu. Karakter tubuhnya berbadan besar dengan keseimbangan yang baik dan kaki lurus yang pendek.\n\nAsal Kucing American Shorthair adalah benua Eropa dan mulai berkembangbiak di America hingga saat ini kucing jenis ini dikenal dengan nama American Shorthair. Kucing ini memiliki sifat yang ceria, ramah, tenang, dan pintar berburu. Harga kucing American Shorthair mulai dari 2 Jutaan.",
+        "Kucing Scottish Fold adalah jenis kucing yang terkenal karena memiliki karakteristik tubuh yang unik, yakni bentuk telinga yang terlipat. Kegemasan kucing ini juga ditambah dengan mata besar dengan wajah menyerupai burung hantu dan badannya yang bulat gembul. Kucing Scottish Fold pertama ditemukan di Skotlandia tahun 1961 oleh seorang petani. Lalu jenis kucing ini berkembang biak hingga saat ini Kucing Scottish Fold jadi hewan peliharaan favorit.\n\nKebiasaan alami kucing jenis ini adalah sopan, patuh, dan sangat penuh kasih sayang. Kisaran harga Kucing Scottish Fold asli mulai 6 Jutaan, sedangkan untuk jenis campuran harganya mulai 2 Jutaan.\n\n",
+        "Kucing Balinese memiliki karakteristik tubuh yang panjang karena berasal dari keluarga Kucing Oriental seperti keluarga Kucing Siam. Bulu kucing Balinese tumbuh panjang dan lebat di tubuhnya yang ramping. Para pecinta kucing pasti akan jatuh cinta pada bulunya yang cantik dan indah, ditambah bentuk matanya seperti almond berwarna biru menambah gemas pada kucing jenis ini.\n\nKarakter Kucing Balinese adalah aktif, ceria, dan setia pada sang pemilik. Tampilannya yang elegan tetap membuatnya terlihat manja karena suka berpeluk-pelukan dan duduk di pangkuan pemiliknya. Harga Kucing Balinese berada disekitar 4 Jutaan.",
+        "Kucing Japanese Bobtail adalah salah satu jenis kucing yang unik karena memiliki bentuk ekor yang bundel. Jenis kucing ini juga berasal dari Jepang sesuai namanya yang sudah ada di negara tersebut sejak ribuan abad lalu. Kucing ini memiliki tubuh yang kuat, aktif, senang berinteraksi, dan memiliki suara lembut yang menggemaskan. Bahkan ada cerita dari beberapa pemilik kucing jenis ini yang pernah mendengar si kucing bernyanyi.\n\nKucing Japanese Bobtail adalah jenis kucing yang cocok jadi hewan peliharaan karena kucing jenis ini mudah beradaptasi dengan lingkungan dan hewan peliharaan lainnya. Jika kamu tertarik memelihara Kucing Japanese Bobtail, ada beberapa hal yang perlu dipersiapkan seperti tempat tinggal yang interaktif untuk si kucing bermain. Kucing Japanese Bobtail berada di harga sekitar 7 Jutaan sampai 10 Juta. Tergantung dari usia dan ukuran tubuh si kucing.",
+        "Nama Kucing Singapura diambil karena jenis kucing cantik ini berasal dari jalan Singapura saat itu. Jenis kucing ini adalah kombinasi dari kucing dua corak ticked-coated dan keturunan warna coklat tua di Asia Tenggara. Karakteristik tubuhnya berukuran kecil, berbulu pendek, dan mata berwarna merah tua, hijau, atau kuning. Sedangkan warna bulunya unik mirip seperti cougars.\n\nKucing Singapura memiliki karakter sifat yang periang, selalu ingin tahu, senang bermain, namun tidak agresif merusak barang-barang di sekitarnya.  Kucing ini juga pandai dan interaktif, sehingga cocok dijadikan teman. Kisaran Harga Kucing Singapura cukup mahal, mulai dari 18 Jutaan sampai 50 Juta.\n\n"
+    )
+
+    private val catPhotos = listOf(
+        R.drawable.kucing_domestik_kampung,
+        R.drawable.kucing_persia,
+        R.drawable.kucing_anggora,
+        R.drawable.kucing_siam,
+        R.drawable.kucing_ragdoll,
+        R.drawable.kucing_maine_coon,
+        R.drawable.kucing_sphynx,
+        R.drawable.kucing_russian_blue,
+        R.drawable.kucing_bengal,
+        R.drawable.kucing_munchkin,
+        R.drawable.kucing_british_shorthair,
+        R.drawable.kucing_american_shorthair,
+        R.drawable.kucing_scottish_fold,
+        R.drawable.kucing_balinese,
+        R.drawable.kucing_japanese_bobtail,
+        R.drawable.kucing_singapura,
+    )
+
+    val listCat: List<Cat>
+        get() {
+            val data = arrayListOf<Cat>()
+            catNames.forEachIndexed { index, name ->
+                data.add(
+                    Cat(
+                        photo = catPhotos[index],
+                        name = name,
+                        description = catDescriptions[index]
+                    )
+                )
+            }
+            return data.shuffled()
+        }
+}

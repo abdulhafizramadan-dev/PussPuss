@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Puss Puss</string>
+    <string name="share">SHARE</string>
+    <string name="favorite">FAVORITE</string>
+    <string name="profile">Profile</string>
+    <string name="author">Abdul Hafiz Ramadan</string>
+    <string name="email">abdulhafizramadan.dev@gmail.com</string>
+</resources>
